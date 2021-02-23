@@ -1,0 +1,303 @@
+h1, h2 {
+    font-family: "Amatic SC", serif;
+    font-size: 72px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.titulo {
+    letter-spacing: .2em;
+}
+
+.subtitulo {
+    font-family: "Mulish", sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #331166;
+    padding: 64px 0 8px 0;
+}
+
+.subtitulo:after {
+    content: "";
+    display: block;
+    width: 300px;
+    height: 3px;
+    background: #a9ac8b;
+    margin: 8px auto 8px auto;
+}
+
+.descricao {
+    font-family: "Mulish", sans-serif;
+    font-size: 14px;
+    text-align: center;
+    text-transform: lowercase;
+    margin-top: -5px;
+    padding-bottom: 32px;
+}
+
+.descricao-planta {
+    font-family: "Amethysta", serif;
+    font-size: 16px;
+    line-height: 2.1;
+}
+
+.text {
+    width: 570px;
+    background: rgba(150, 156, 79, 20%) ;
+    padding: 17px;
+    margin-left: 20px;
+    margin-bottom: 32px;
+}
+
+.text-inverso {
+    text-align: right;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.tit-box {
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: .4em;
+    padding: 20px 0;
+    color: #fff;
+    margin-top: -10px;
+    background: #7E55CC;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    font-family: "Mulish", sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    background: none;
+    border: solid 2px #331166;
+    padding: 10px 30px;
+}
+
+.btn a {
+    color: #000;
+    font-weight: bold;
+}
+
+.btn:hover, .btn a:hover {
+    color: #7E55CC;
+    border-color: #7E55CC;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    padding: 16px 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.header .menu-ativo {
+    color: #969C4F;
+}
+
+.header ul li {
+    display: inline-block;
+    margin: 32px 64px 0 0;
+}
+
+.header ul li a {
+   font-family: "Mulish", sans-serif;
+   font-size: 14px;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   color: #000;
+}
+
+.header ul li .home:before {
+    content: url("../img/intro/separador-nav.svg");
+    position: relative;
+    left: 85px;
+}
+
+.header ul li .plant:before {
+    content: url("../img/intro/separador-nav.svg");
+    position: relative;
+    left: 120px;
+}
+
+.header ul li .benz:before {
+    content: url("../img/intro/separador-nav.svg");
+    position: relative;
+    left: 160px;
+}
+
+.header ul li a:hover {
+    color: #969c4f;
+}
+
+.introducao {
+    width: 100%;
+    height: 249px;
+    margin-top: 104px;
+    background: url("../img/intro/bg-intro.jpg") no-repeat center;
+    background-position: cover;
+    text-align: center; 
+}
+
+.introducao-interna {
+    height: 196px;
+}
+
+.introducao-interna h1:after {
+    content: "";
+    display: block;
+    margin: 8px auto 0 auto;
+    width: 300px;
+    height: 3px;
+    background: #A9AC8B;
+}
+
+.introducao h1 {
+   margin-bottom: 8px;
+}
+
+.introducao p {
+    display: block;
+    margin: 0 auto;
+    width: 350px;
+    font-family: "Mulish", sans-serif;
+    font-size: 14px;
+    text-transform: lowercase;
+    line-height: 1.5;
+}
+
+.natureza h4 {
+    font-family: "Mulish", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 64px;
+}
+
+.natureza h4:after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #959C4F;
+    margin: 8px 0 16px 0;
+}
+
+.natureza p {
+    font-family: "Amethysta", serif;
+    font-size: 16px;
+    line-height: 2.5;
+    text-transform: lowercase;
+    padding-bottom: 64px;
+}
+
+.plantas, .benzedeira {
+    width: 100%;
+    background: #F2EDF5;
+}
+
+.plantas ul, 
+.plantas-med ul, 
+.benzedeira ul,
+.esoterico ul {
+   margin-left: 190px;
+}
+
+.plantas ul li, .plantas-med ul li {
+    margin-right: 20px;
+}
+
+.call {
+    clear: both;
+    padding-bottom: 64px;
+}
+
+.call p {
+    font-family: "Mulish", sans-serif;
+    font-size: 14px;
+    text-transform: lowercase;
+    text-align: center;
+    padding: 32px 0 8px 0;
+}
+
+.plantas-med {
+    width: 100%;
+}
+
+.plantas-med .tit-box, .esoterico .tit-box {
+    background: #969C4F;
+}
+
+.plantas-med .btn:hover, 
+.plantas-med .btn a:hover,
+.esoterico .btn:hover,
+.esoterico .btn a:hover {
+    color: #969C4F;
+    border-color: #969C4F;
+}
+
+.benzedeira ul li {
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.espada .tit-box,
+.coca .tit-box {
+    width: 390px;
+} 
+
+.out .tit-box, .out-two .tit-box {
+    width: 540px;
+}
+
+.benzedeira .out-two,
+.esoterico .out-two {
+    margin-top: 30px;
+}
+
+.esoterico {
+    width: 100%
+}
+
+.esoterico ul li {
+    margin-right: 76px;
+}
+
+.esoterico .coca {
+    clear: both;
+    margin: -597px 200px 0 577px;
+    padding: 5px;
+}
+
+.esoterico .coca h3 {
+    padding-bottom: 24px;
+}
+
+.copy {
+    width: 100%;
+    background: #F2EDF5;
+    font-family: "Amethysta", serif;
+    font-size: 14px;
+    padding: 30px 0;
+}
+
+.plantas-sessoes {
+    margin: 64px auto 32px auto;
+}
+
+.plantas-sessoes .intro-text {
+    font-family: "Amethysta", serif;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-left: 30px;
+}
